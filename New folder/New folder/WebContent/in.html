@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online Flower Delivery Service in India | Myonlineflowers.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 951px)"href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2|Piedra&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.jpg" alt="My onlineflowers.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section"> Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
+            <li class="item"><a href="#phone">Phone no</a></li>
+            <li class="item"><a onclick="logout()">Logout</p></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlineflowers</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est odit error expedita quo? Quisvoluptatum .
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum est odit error expedita quo? </p>
+        <form method="post" action="products"><button type='submit' class="btn">Order Now</button></form>
+    </section>
+    <hr>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/Rg.jpg" alt="">
+                <h2 class="h-secondary center">Flower Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing
+                    Lorem ipsum dolor sit amet consectetur adipising elit. Reiciendis modi quia minus, maxime hic sed
+                    amet. Tempore ad ratione odio
+                    porro cupiditate recusandae eius perferendis quaerat error. Ipsa, molestias reiciendis
+                    necessitatibus debitis eos velit?
+                    Ut incidunt non asperiores! Pariatur aperiam </p>
+            </div>
+            
+                <div class="box">
+                    <img src="img/Br.jpg" alt="">
+                    <h2 class="h-secondary center">Flower Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia magnam illum debitis dicta sit
+                        iure officiis aliquid
+                        cupiditate voluptatum itaque minima repellendus tempore pariatur quos, incidunt a deleniti cum.
+                        Quidem veniam minus accusantium laborum?
+                        laboriosam et sunt quaerat possimus dignissimos eveniet, </p>
+                </div>
+                    <div class="box">
+                        <img src="img/Mr.jpg" alt="">
+                        <h2 class="h-secondary center">Bulk Ordering</h2>
+                        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quod tempora minima obcaecati
+                            fugiat, commodi cumque in.
+                            Natus reiciendis maxime quaerat illum veritatis et nesciunt nisi velit atque error a sit,
+                            iure libero officiis?.
+                            laboriosam et sunt quaerat possimus dignissimos eveniet,</p>
+                    </div>
+        
+                </div>
+    </section>
+    <hr>
+    <section id="client-section">
+        <h1 class="h-primry center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/Rose.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact us</h1>
+        <div id="contact-box">
+            <form action="FeedbackServlet" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone no:</label>
+                    <input type="number" name="phone" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>                                                                       
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineFlower.com. All rights reserved!
+        </div>
+    </footer>
+    <script>
+    	function logout(){
+               window.location.href="http://localhost:8080/ProjectWebsite/LogoutServlet";
+    	}
+    </script>
+</body>
+
+</html>
